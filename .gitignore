@@ -1,0 +1,25 @@
+# --- uv & Virtual Environments ---
+.venv/
+env/
+venv/
+uv.lock.temp*
+
+# --- Python caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+
+# --- Build outputs ---
+dist/
+build/
+*.egg-info/
+
+# --- Local secrets & environment files ---
+.env
+.env.*
+!.env.example
+
+# --- macOS system files ---
+.DS_Store
